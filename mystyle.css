@@ -99,13 +99,16 @@ ul {
 }
 
 li {
+
   line-height: 1.0em;
-  padding: 3px;
+  padding: 5px;
   color: #45475a;
 }
 
 li:first-child {
-  display: inline-block;
+
+  display: flex;
+  align-items: center; /* Added */
   color: #f5c2e7;
   font-size: 1.5em;
   font-weight: 600;
